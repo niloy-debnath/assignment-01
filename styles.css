@@ -1,6 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    /* background-color: #1E1E1E; */
 }
 
 
@@ -191,3 +192,67 @@ nav{
 }
 
 /* Productive Section Finishes here */
+
+
+
+/* info collection section */
+
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 100px 150px;
+    /* flex-wrap: wrap; */
+    width: 1140px;
+    height: 632px;
+    /* border: 5px solid red; */
+}
+
+section input[type="text"]{
+    height: 70px;
+    width: 497px;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.left-text {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    line-height: 1.2;
+    margin: 0;
+    max-width: 50%;
+    /* border: 5px solid red; */
+}
+
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.form-div input,
+.form-div textarea {
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #D3D3D3;
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.form-div button{
+    width: 497px;
+    height: 62px;
+}
+
+   /* Info Collection Segment Finished */
+                    
+
+   
