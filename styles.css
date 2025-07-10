@@ -20,6 +20,22 @@ body{
   font-size: 34px;
 }
 
+.inter-bold{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.inter-regular{
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  opacity: 50%;
+}
 
 
 .raleway-bold{
@@ -126,3 +142,52 @@ nav{
 }
 
 /* Action Segment Finished */
+
+
+/* Productive User Section */
+
+.productive{
+    width: 1140px;
+    /* height: 306px; */
+    align-items: center;
+    background-color: rgba(78, 71, 255, 0.1) ;
+    margin: 116px auto;
+    border-radius: 24px;
+    flex-direction: column;
+    display: flex;
+}
+
+.productive-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 40px;
+    
+   
+}
+
+.flexbox{
+    display: flex; 
+    justify-content: space-between;
+    gap: 50px;
+    /* margin-top: 40px; */
+    
+}
+.primary-color{
+    margin-bottom: 0px;
+}
+.inter-regular{
+    margin-top: 0px;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 5px solid red; */
+    justify-content: center;
+    padding: none;
+    margin-top: 0px;
+}
+
+/* Productive Section Finishes here */
