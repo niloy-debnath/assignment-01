@@ -59,6 +59,13 @@ width: fit-content;
     font-weight: bold;
     text-align: center;
 }
+
+button:hover{
+    background-color: yellow;
+    color: black;
+    icon   
+}
+
 /* Shared Styles Finished Here */
 
 
@@ -80,9 +87,7 @@ nav{
     align-items: baseline;
 }
 
-#align-top{
-    margin-top: 8px;
-}
+
 
 
 
