@@ -304,6 +304,8 @@ font-family: "Inter", sans-serif;
     margin-bottom: 100px;
    }
 
+/* Reveiw(bonus part) starts here */
+
    .review-container{
     display: flex;
     gap: 20px;
@@ -374,3 +376,5 @@ background-color: white;
     /* border: 3px solid blue; */
     margin: 40px 170px;
    }
+
+   /* Review parts end here */
